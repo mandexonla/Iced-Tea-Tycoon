@@ -45,7 +45,10 @@ namespace InteliMapPro
                 builder.buildMaps = new List<GeneratorMap>();
             }
 
-            builder.buildMaps.Add(new GeneratorMap(new List<Tilemap>(FindObjectsByType<Tilemap>()), new BoundsInt(mins, maxs - mins + new Vector3Int(1, 1, 1))));
+            builder.buildMaps.Add(
+                new GeneratorMap(
+                    new List<Tilemap>(FindObjectsByType<Tilemap>(FindObjectsSortMode.None)),
+                    new BoundsInt(mins, maxs - mins + new Vector3Int(1, 1, 1))));
         }
     }
 }
