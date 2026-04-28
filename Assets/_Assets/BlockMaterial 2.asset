@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a846506fa0d872469420ae289f0c5a1, type: 3}
+  m_Name: BlockMaterial 2
+  m_EditorClassIdentifier: Assembly-CSharp::BlockMaterialSO
+  displayName: MatMetal
+  tint: {r: 0.33333334, g: 0.6, b: 0.8, a: 1}
+  mass: 5
+  breakForce: 1500
+  physicsMaterial: {fileID: 6200000, guid: c166ba01b79a22545a9425aa235a24e6, type: 2}

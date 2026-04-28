@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Ground
+  - Block
   layers:
   - Default
   - TransparentFX
@@ -43,6 +45,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 334112431
+    locked: 0
+  - name: Sea
+    uniqueID: 1963603785
     locked: 0
   - name: WalkInfront
     uniqueID: 2219534177
